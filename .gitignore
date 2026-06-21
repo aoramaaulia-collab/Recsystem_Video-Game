@@ -1,0 +1,14 @@
+# Data mentah & hasil antara — terlalu besar untuk GitHub
+video_games_reviews_raw.parquet
+video_games_clean.parquet
+video_games_kcore.parquet
+Video_Games_review.jsonl.gz
+meta_Video_Games.jsonl.gz
+
+# File sample (86 MB) — opsional, diabaikan biar repo ringan
+video_games_sample.parquet
+
+# Cache & file sistem
+.ipynb_checkpoints/
+__pycache__/
+.DS_Store
