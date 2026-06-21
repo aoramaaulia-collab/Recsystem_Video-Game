@@ -1,0 +1,10 @@
+# ── Dependensi untuk Streamlit Community Cloud ──
+# Streamlit Cloud sudah memasang streamlit; baris ini hanya menjaga versi minimal.
+streamlit>=1.32
+
+# Stack data — dikunci agar artefak model (.pkl) & file .parquet termuat dengan benar.
+numpy>=2.0           # WAJIB numpy 2.x — artefak di-pickle dgn numpy 2 (modul numpy._core)
+scipy>=1.13          # memuat matriks sparse (scipy.sparse._csr) di dalam artefak
+pandas==2.3.3        # versi yang dipakai saat menulis file .parquet
+pyarrow>=17          # mesin pembaca file .parquet
+scikit-learn==1.8.0  # cosine_similarity (sekaligus versi pembuat artefak)
