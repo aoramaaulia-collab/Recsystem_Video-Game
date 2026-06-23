@@ -130,6 +130,7 @@ streamlit run app.py
 
 Aplikasi akan terbuka otomatis di browser pada `http://localhost:8501`. Pastikan ketiga artefak (`model_artifacts.pkl`, `video_games_items.parquet`, `video_games_popularitas.parquet`) berada di folder yang sama dengan `app.py`, karena aplikasi memuat artefak tersebut, bukan membangun ulang model.
 
+Streamlit yang sudah di deploy juga dapat dilihat pada link berikut: https://recsystemvideo-game-fpjzm9twfhdh4uer22bgyb.streamlit.app/
 ## Metodologi Singkat
 
 ```
