@@ -144,9 +144,7 @@ Data Mentah → ETL & k-core (BigQuery) → Pembersihan → EDA → Sampling
 5. **Evaluasi:** Precision@K, Hit Rate, RMSE, dan MAE, dengan penanganan kebocoran data (data leakage).
 6. **Deployment:** metode pemenang (Item-Based) diterapkan ke aplikasi Streamlit, dengan menjaga konsistensi antara model yang diuji dan yang dipakai aplikasi.
 
-Penjelasan mendalam tiap tahap (termasuk konsep TF-IDF, cosine similarity, matrix factorization, dan masalah yang ditemui beserta solusinya) tersedia di [artikel Medium](TEMPEL_LINK_MEDIUM_DI_SINI).
-
 ## Author
 
 **Aulia Aorama**
-<!-- [Lihat Lebih lanjut Portofolio saya](https://auliaaorama-porto.netlify.app/) -->
+[Lihat Lebih lanjut Portofolio saya](https://auliaaorama-porto.netlify.app/)
