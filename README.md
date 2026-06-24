@@ -2,7 +2,7 @@
 
 > Sistem rekomendasi produk e-commerce menggunakan dataset **Amazon Reviews 2023 (Video Games)**. Proyek ini membangun dan membandingkan tiga metode rekomendasi (Content-Based, Item-Based Collaborative, dan SVD) sebagai sebuah eksperimen, lalu menerapkan metode terbaik ke dalam aplikasi web interaktif dengan Streamlit.
 
-**Penjelasan lengkap (artikel):** [Baca di Medium]([(https://medium.com/@aoramaaulia/sistem-rekomendasi-video-game-3bce9e703910)])
+**Penjelasan lengkap (artikel):** [Baca di Medium][(https://medium.com/@aoramaaulia/sistem-rekomendasi-video-game-3bce9e703910)]
 
 ---
 
