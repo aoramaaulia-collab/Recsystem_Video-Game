@@ -95,23 +95,6 @@ Evaluasi dilakukan dengan menyembunyikan sebagian rating pengguna, lalu memeriks
 - **Visualisasi:** Matplotlib, Seaborn
 - **Aplikasi web:** Streamlit
 
-## Struktur Proyek
-
-```
-Recsystem_Video-Game/
-├── Deployment/
-│   ├── app.py                          # Aplikasi Streamlit
-│   ├── model_artifacts.pkl             # Artefak model (TF-IDF + matriks kemiripan)
-│   ├── video_games_items.parquet       # Data produk
-│   └── video_games_popularitas.parquet # Data produk populer
-├── notebooks/
-│   ├── ETL.ipynb                       # Extract, Transform, Load ke BigQuery
-│   └── Analisis_dan_Modelling.ipynb    # EDA + pemodelan + evaluasi
-├── requirements.txt
-└── README.md
-```
-
-> **Catatan:** file data mentah dan parquet berukuran besar (ratusan MB) tidak disertakan karena melebihi batas ukuran file GitHub (100 MB). Data dapat diunduh dari sumbernya (Amazon Reviews 2023, McAuley Lab UCSD) lalu diproses ulang dengan notebook ETL. Sesuaikan nama berkas pada struktur di atas dengan nama berkas di repo kamu jika berbeda.
 
 ## Cara Menjalankan Aplikasi
 
